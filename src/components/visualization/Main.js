@@ -1,6 +1,7 @@
+
 import React, {Component} from 'react';
-import * as Icon from 'react-feather';
-import Sample from './Sample';
+import Logger from './Logger';
+import BarChart from './BarChart';
 
 class Main extends Component{
     render(){
@@ -20,7 +21,8 @@ class Main extends Component{
                   </div>
                 </div>
                 {/* <canvas className="my-4 w-100" id="myChart" width="900" height="380"></canvas> */}
-                <Sample />
+                <Logger />
+                {/* <BarChart /> */}
                 {/* <h2>Section title</h2>
                 <div className="table-responsive">
                   <table className="table table-striped table-sm">

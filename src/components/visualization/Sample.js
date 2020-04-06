@@ -28,9 +28,9 @@ class Sample extends Component{
             <Row>
                 <Col md={6}>
                 <Card>
-                    <Card.Header as="h6">Featured</Card.Header>
+                    <Card.Header as="h6">Logger</Card.Header>
                     <Card.Body>
-                        <Card.Title>Special title treatment</Card.Title>
+                        <Card.Title>incoming message:</Card.Title>
                         <Card.Text>
                         {this.state.Counters.map(()=>(<Counter />))}
                         </Card.Text>
